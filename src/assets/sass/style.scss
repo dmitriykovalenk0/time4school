@@ -1,0 +1,73 @@
+@import "vars";
+
+
+/* Default styles */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Georgia';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 40px;
+    color: #fff;
+
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul,
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+
+
+/* Blocks */
+@import "blocks/topbar";
+@import "blocks/header";
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Fonts */
+
+@font-face {
+    font-family: 'Georgia';
+    src: url('../../../fonts/Georgia.eot');
+    src: local('Georgia'),
+        url('Georgia.eot?#iefix') format('embedded-opentype'),
+        url('../../../fonts/Georgia.woff') format('woff'),
+        url('../../../fonts/Georgia.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

@@ -1,0 +1,80 @@
+.topbar {
+    height: 50px;
+    background-color: #373c42;
+
+}
+
+.topbar__flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topbar__social {
+    padding: 9px 0 0 20px;
+}
+
+.topbar__social-item {
+    display: inline-block;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.topbar__social-item a {
+    width: 32px;
+    height: 32px;
+    background-color: #4c555e;
+    border-radius: 50%;
+}
+
+.linkedin:hover {
+    background-color: #0e76a8;
+}
+
+.twitter:hover {
+    background-color: #00acee;
+}
+
+.pinterest:hover {
+    background-color: #c8232c;
+}
+
+.google:hover {
+    background-color: #db4a39;
+}
+
+.rss:hover {
+    background-color: #ee802f;
+}
+
+.topbar__social-item img {
+    padding-bottom: 3.5px;
+}
+
+
+.topbar__menu {
+    padding-right: 20px;
+}
+
+
+.topbar__menu-item {
+    display: inline-block;
+
+    padding-left: 5px;
+
+    &:not(:nth-child(1))::before {
+        content: '|';
+        color: #999999;
+        font-size: 12px;
+        font-weight: 400;
+    }
+}
+
+.topbar__menu-link {
+    padding-left: 5px;
+
+    color: #999999;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.4px;
+}
