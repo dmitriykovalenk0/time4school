@@ -1,0 +1,36 @@
+.section__services {
+    margin: 50px 55px;
+}
+
+.services__items {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.services__item {
+    max-width: 200px;
+    text-align: center;
+}
+
+.services__item-img {
+    display: inline-block;
+    width: 64px;
+    height: 64px;
+    background-color: #353535;
+
+    line-height: 22px;
+    font-size: 22px;
+}
+
+.services__item-title {
+    color: #4c555e;
+    line-height: 21.6px;
+
+    padding: 20px 0 20px;
+}
+
+.services__item-text {
+    color: #7f7d77;
+    font-size: 13px;
+    line-height: 20.8px;
+}

@@ -1,0 +1,15 @@
+.section__slider-container {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section__slider {
+    overflow: hidden;
+
+    width: 880px;
+    height: 350px;
+    background-color: #333333;
+
+}
