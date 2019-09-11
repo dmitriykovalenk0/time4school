@@ -1,0 +1,49 @@
+.section__latest {
+    margin: 50px;
+}
+
+.section__latest-left {
+    max-width: 200px;
+
+    float: left;
+}
+
+.section__latest-title {
+    color: #7f7d77;
+    line-height: 21.6px;
+}
+
+.section__latest-right {
+    display: flex;
+    justify-content: space-around;
+}
+
+.section__latest-item {
+    max-width: 200px;
+}
+
+.section__latest-img {
+    width: 210px;
+    height: 140px;
+    background-color: #333333;
+
+    text-align: center;
+}
+
+.section__latest-img h4 {
+    padding-top: 50px;
+}
+
+.section__latest-text {
+    color: #7f7d77;
+    font-size: 13px;
+    line-height: 18.2px;
+
+    padding-top: 15px;
+}
+
+.section__latest-link a {
+    color: #4c555e;
+    font-size: 13px;
+    line-height: 13px;
+}
